@@ -2,25 +2,24 @@
 @tailwind components;
 @tailwind utilities;
 
-
-body{
+body {
   width: 100%;
   height: 100%;
   box-sizing: border-box;
 }
-*{
+* {
   margin: 0px;
   padding: 0px;
-  
+  font-family: "Barlow", sans-serif;
 }
 
-.bg-img{
+.bg-img {
   background: url("/images/mobile/image-header.jpg");
   background-repeat: no-repeat;
   background-position: center;
-   background-size: cover;
+  background-size: cover;
 }
 
-.main-heading{
-  font-family:   "Fraunces", serif;;
+.main-heading {
+  font-family: "Fraunces", serif;
 }
