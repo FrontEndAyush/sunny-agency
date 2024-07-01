@@ -7,13 +7,19 @@ const Footer = () => {
         sunnyside
       </h1>
 
-      <ul className="flex justify-around text-[18px] px-4 text-[#2E7666] ">
-        <li>About</li>
-        <li>Services</li>
-        <li>Projects</li>
+      <ul className="flex justify-around lg:justify-center lg:gap-[60px] text-[18px] px-4 text-[#2E7666] ">
+        <li className=" hover:text-white cursor-pointer duration-300 transition-all">
+          About
+        </li>
+        <li className=" hover:text-white  cursor-pointer duration-300 transition-all">
+          Services
+        </li>
+        <li className=" hover:text-white cursor-pointer duration-300 transition-all">
+          Projects
+        </li>
       </ul>
 
-      <div className="flex justify-around px-20 py-10 text-[#599E8E]">
+      <div className="flex justify-around lg:justify-center lg:gap-[30px] px-20 py-10 text-[#599E8E]">
         <img src="/images/icon-instagram.svg" alt="" />
         <img src="/images/icon-twitter.svg" alt="" />
         <img src="/images/icon-facebook.svg" alt="" />
