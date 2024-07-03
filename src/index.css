@@ -14,7 +14,7 @@ body {
 }
 
 .bg-img {
-  background: url("/images/mobile/image-header.jpg");
+   background: url("/images/desktop/image-header.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;

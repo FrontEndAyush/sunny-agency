@@ -8,7 +8,7 @@ function App() {
   return (
     <>
       <main className="  w-full">
-        <div className="bg-img h-[60vh] lg:hidden">
+        <div className="bg-img  lg:h-[100vh] h-[70vh]">
           <Navbar></Navbar>
           <Header></Header>
         </div>

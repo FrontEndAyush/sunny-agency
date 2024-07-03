@@ -4,14 +4,14 @@ const Header = () => {
   return (
     <div>
       <div className="text-center mt-10">
-        <h1 className="text-3xl text-white tracking-widest main-heading font-bold">
-          WE ARE
+        <h1 className="text-3xl lg:text-4xl lg:mt-[40px] text-white  lg:font-black  tracking-widest main-heading font-bold">
+          WE ARE CREATIVES 
         </h1>
-        <h1 className="text-3xl tracking-widest text-white main-heading font-bold">
+        <h1 className="text-3xl lg:hidden tracking-widest text-white main-heading font-bold">
           CREATIVES
         </h1>
       </div>
-      <div className="flex justify-center mt-12">
+      <div className="flex justify-center mt-6 lg:mt-[130px]">
         <img src="/images/icon-arrow-down.svg" alt="" />
       </div>
     </div>
