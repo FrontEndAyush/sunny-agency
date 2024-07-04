@@ -4,21 +4,16 @@ const Content = () => {
   return (
     <section>
       <div className="lg:flex flex-row-reverse pt-[]">
-        <div>
+        <div className="w-4/4 lg:w-2/4">
           <img
             src="/images/mobile/image-transform.jpg"
-            className="lg:hidden"
+            className=""
             alt=""
           />
-          <img
-            src="/images/desktop/image-transform.jpg"
-            className="hidden lg:block"
-            alt=""
-            
-          />
+       
         </div>
 
-        <div className="lg:flex items-center flex-col lg:w-1/4 justify-center lg:mr-[200px]">
+        <div className="lg:flex items-center mx-auto w-3/4 flex-col lg:w-1/4 justify-center lg:mr-[200px]">
           <div className="text-center ">
             <h1 className="text-3xl font-bold main-heading px-4 mt-7 lg:mt-0">
               Transform your brand
@@ -49,7 +44,7 @@ const Content = () => {
           />
         </div>
 
-        <div className="text-center lg:w-1/4 lg:text-left lg:ml-[130px] lg:flex flex-col justify-center">
+        <div className="text-center w-3/4 mx-auto lg:w-1/4 lg:text-left lg:ml-[130px] lg:flex flex-col justify-center">
           <h1 className="text-3xl font-bold main-heading px-4 mt-7">
             Stand out to the right audience
           </h1>
@@ -76,7 +71,7 @@ const Content = () => {
             className="hidden lg:block"
             alt=""
           />
-          <div className="text-center absolute bottom-[80px]">
+          <div className="text-center absolute  mx-auto  bottom-[80px]">
             <h1 className="text-3xl font-bold text-[#1F5447] main-heading px-4 mt-7">
               Graphic Design
             </h1>

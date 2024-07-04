@@ -6,7 +6,7 @@ const Testimonials = () => {
       <h1 className="main-heading text-1xl tracking-widest  text-center font-bold text-[#A8A9AB]">
         CLIENT TESTIMONIALS{" "}
       </h1>
-      <div className="lg:flex lg:px-[140px] ">
+      <div className="lg:flex w-3/4 mx-auto  lg:px-[10px] ">
         <div className="mx-auto">
           <img
             src="/images/image-emily.jpg"
