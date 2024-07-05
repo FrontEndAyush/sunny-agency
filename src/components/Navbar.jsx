@@ -24,8 +24,8 @@ const Navbar = () => {
         </ul>
       </div>
 
-      <h1 class={`w-0 h-0 border-b-[70px] absolute right-[35px] top-[60px] lg:hidden   border-b-white border-l-[70px] ${isTrue ? "block" : "hidden"}  border-l-transparent`}></h1>
-      <div className={`absolute left-[40px] lg:hidden ${isTrue ? "block" : "hidden"} top-[100px] bg-white h-[300px] w-[300px]`}>
+      <h1 class={`w-0 h-0 border-b-[70px] absolute right-[30px] top-[60px] lg:hidden   border-b-white border-l-[70px] ${isTrue ? "block" : "hidden"}  border-l-transparent`}></h1>
+      <div className={`absolute right-[30px] lg:hidden ${isTrue ? "block" : "hidden"} top-[100px] bg-white h-[300px] w-[300px]`}>
         <ul className="flex flex-col justify-center">
           <li className="cursor-pointer text-center mt-10">About</li>
           <li className="cursor-pointer text-center mt-5">Serivces</li>
